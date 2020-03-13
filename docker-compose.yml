@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  py_app:
+    build: .
+    container_name: py_app
+    command: [python, /app/minimal_python_project_boilerplate/app.py]
+    stdin_open: true
+    tty: true
+    volumes:
+      - $PWD:/app

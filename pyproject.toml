@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "minimal-python-project-boilerplate"
+version = "0.1.0"
+description = ""
+authors = ["yukiyan <wakayama0215@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
