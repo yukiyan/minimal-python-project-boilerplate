@@ -1,6 +1,6 @@
 class App:
     def main(self):
-        print("This is boilerplate")
+        print("This is boilerplate!")
 
 
 if __name__ == "__main__":

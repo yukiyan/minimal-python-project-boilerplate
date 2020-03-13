@@ -3,6 +3,9 @@ Boilerplate for minimal python project using poetry, pre-commit, black, isort, f
 
 ## Setup
 ```
-pip install poetry pre-commit black isort flake8 nox
-pre-commit install
+$ pip install poetry pre-commit black isort flake8 nox
+$ pre-commit install
+$ docker-compose build
+$ docker-compose run --rm py_app
+This is boilerplate!
 ```
